@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Vazir";
+  src: url(/src/components/VistaDev.ttf);
+}
+.hero-container {
+  background-image: url(../components/pages/bitcoin\ 1-1.png);
+  background-size: 125% auto;
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+}
+.hero-passcontainer {
+  background-image: url(../components/pages/Rectangle\ container.png);
+  border-radius: 9px;
+  opacity: 0.7;
+  margin-top: 8px;
+  color: black;
+
+  font-style: normal;
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.hero-btns {
+  margin-top: 32px;
+  background-color: #213363;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+.btn_passcontainer {
+  position: absolute;
+  width: 361px;
+  height: 47px;
+  left: 641px;
+  top: 333px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 47px;
+  /* identical to box height */
+
+  /* Black Blue Text */
+
+  color: #04192d;
+}
+.btn__passcotainer {
+  position: absolute;
+  width: 217px;
+  height: 28px;
+  left: 734px;
+  top: 392px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  /* Black Blue Text */
+
+  color: #04192d;
+}
+.hero__btn {
+  position: absolute;
+
+  height: 52px;
+  left: 749px;
+  top: 435px;
+
+  background: #213363;
+  border-radius: 5px;
+}
+.arz-new {
+  height: 1px;
+  width: 1278px;
+  background-image: url(../components/pages/Rectangle\ 343.png);
+
+  background-size: 125% auto;
+}
+.arz-new1 {
+  height: 113px;
+  width: 1277px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: contain;
+}
+.th_monro {
+  color: red;
+}

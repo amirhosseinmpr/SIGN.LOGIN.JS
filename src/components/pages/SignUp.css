@@ -1,0 +1,256 @@
+/* * {
+  background-color: #25505d;
+} */
+
+.backkar {
+  background-image: url(../pages/Groupbacksi.png);
+  width: 562px;
+  height: 630px;
+  float: left;
+}
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+/* .dive1,
+.form-signup {
+  display: flex;
+  border-bottom: 200px;
+} */
+.dive1 {
+  background-color: #25505d;
+  width: 1038px;
+  height: 657px;
+}
+.form-h1-signup {
+  height: 93px;
+  width: 1277px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: contain;
+}
+*/ .form-signup,
+.dive1 {
+  display: flex;
+  border-bottom: 200px;
+}
+.form-signup {
+  background-color: #efefef;
+  width: 476px;
+  height: 628px;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: contain;
+}
+.google_btn {
+  padding: 12px 54px;
+  font-size: 19px;
+  box-sizing: border-box;
+  background: url(../pages/googlerangi.png) no-repeat scroll 5px 5px;
+  border: none;
+  background-size: 293px;
+  /* height: 28px;
+  text-align: center; */
+}
+.sabt_google {
+  padding: 1px 110px;
+  font-size: 20px;
+  color: black;
+}
+.backkar {
+  float: left;
+}
+.form-signup {
+  float: left;
+}
+
+.baresi {
+  margin-bottom: inherit;
+  justify-content: center;
+  margin: 27px;
+}
+
+.joftesh {
+  /* width: 553px;
+  height: 561px; */
+  margin: auto;
+  width: 68%;
+  /* border: 3px solid #e2e6e7; */
+  padding: 10px;
+  background-size: 100px;
+}
+.btn_backsi {
+  transition-duration: 0.4s;
+
+  background-color: #d6e0d7; /* Green */
+  color: white;
+  width: 80px;
+  height: 43px;
+  margin: auto;
+  width: 68%;
+  /* border: 3px solid #e2e6e7; */
+  padding: 10px;
+}
+/* .email-2 {
+  background-image: url(../pages/rere.png);
+} */
+/* .google_ntb {
+  border-style: solid;
+  border-color: green;
+} */
+.oshtor {
+  width: 941px;
+  height: 12px;
+}
+.notrobot {
+  background-color: #c4c4c4;
+  width: 291px;
+  height: 47px;
+  padding: 0px 28px;
+}
+.email-2 {
+  padding: 11px 35px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  background: url(../pages/Vector02.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
+.hamash {
+  background-color: #25505d;
+  margin: auto;
+}
+.form-email-signup {
+  width: 459px;
+  height: 377px;
+  padding: 0px 85px;
+}
+.fasele-p {
+  width: 346px;
+  height: 49px;
+  padding: 0px 55px;
+}
+.sabtnam {
+  height: 80px;
+  padding: 32px 77px;
+}
+.google_ntb {
+  height: 50px;
+  padding: 5px 85px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+input[type="checkbox"] {
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+}
+.NOT-ROBOT {
+  width: 30px; /*Desired width*/
+  height: 30px;
+}
+.sabt_google {
+  background-color: #56786f;
+  border: none;
+  color: white;
+  padding: 10px 127px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -7px 2px;
+  cursor: pointer;
+}
+.email-3 {
+  padding: 11px 35px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  background: url(../pages/vector01.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
+.email-4 {
+  padding: 11px 35px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  background: url(../pages/Vector03.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
+.email-5 {
+  padding: 11px 35px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  padding-left: 32px;
+}
+.back_text {
+  color: cornsilk;
+  /* padding: 414px 0px; */
+  margin: 432px 0px;
+  /* box-sizing: border-box; */
+  padding-left: 432px;
+}
+.rect-text {
+  padding: 578px 62px;
+  /* margin: -434px 0; */
+  /* box-sizing: border-box; */
+  padding-left: 49px;
+}
+.txet_si {
+  padding: 4px 93px;
+  margin: -423px 0;
+  box-sizing: border-box;
+  padding-left: 51px;
+  background-size: 562px;
+  color: #efefef;
+  background-image: url(../pages/askbae.png);
+}
+.mara {
+  height: 124px;
+}
+.asli2 {
+  margin-top: 457px;
+}
+.mara-bes {
+  padding: 16px 1px;
+  margin: -15px 29px;
+  box-sizing: border-box;
+  padding-left: 97px;
+}
+.input[type="checkbox"] {
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+}
+.faramoshoiii {
+  height: 0px;
+  width: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+.btn__ {
+  /* border: none; */
+  /* color: white; */
+  padding: 13px 8px;
+  /* text-align: center; */
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 33px;
+  margin: -3px 3px;
+  cursor: pointer;
+  padding-right: 388px;
+}

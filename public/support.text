@@ -1,0 +1,52 @@
+import './App.css';
+import Navbar from '../components/Navbar';
+import { BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+import Home from '../src/components/pages/Home'
+import Services from '../src/components/pages/Services';
+import products from '../src/components/pages/products';
+import { ThemeProvider } from '@material-ui/core';
+import HomePage from '../src/views/Homepage';
+import { AuthProvider, AuthRoute } from '../src/contexts/AuthContext';
+import Login from '../src/theme';
+import theme from '../src/theme';
+import GlobalStyles from '../src/components/GlobalStyles';
+import Blockui from '../src/components/Blockui';
+import SignIn from '../src/views/SignIn';
+import NotFoundView from '../src/views/NotFoundPage';
+
+function App() {
+  return (
+    <>
+     <ThemeProvider theme={theme}>
+        <GlobalStyles />
+         <BrowserRouter>
+    <Router>
+     <Navbar />
+     <Switch>
+       <Route path="/" exact component={Home} />
+       <Route path="/services" exact component={Services} />
+       <Route path="/products" exact component={products} />
+       
+       
+     </Switch>
+     </Router>
+     </BrowserRouter>
+      </ThemeProvider>
+     <div className='app' >
+       <switch>
+       
+       </switch>
+     </div>
+     
+
+
+
+
+
+
+</>
+  );
+}
+
+export default App;
+FOR DEFAULT APP JS
